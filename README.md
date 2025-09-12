@@ -18,7 +18,7 @@ My 100 days of code journey in JavaScript.
 | Day | Topic / Lesson | Status |
 |-----|----------------|--------|
 | 1   | Variables, Data types and their conversions and operations | ✅ Done |
-| 2   |  |  |
+| 2   | Comparison of data types and Type Coercion, Stack and Heap Memory | ✅ Done |
 | 3   |  |  |
 | 4   |  |  |
 | 5   |  |  |

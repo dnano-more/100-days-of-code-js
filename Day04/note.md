@@ -109,8 +109,8 @@
   
     ```javascript
     let phrase = "Hello, I am learning JavaScript.";
-    console.log(phrase.search("JavaScript")); // 18
-    console.log(phrase.search(/learning/i)); // 9 (case-insensitive search)
+    console.log(phrase.search("JavaScript")); // 21
+    console.log(phrase.search(/learning/i)); // 12 (case-insensitive search)
     console.log(phrase.search("Python")); // -1
     ```
 
@@ -118,6 +118,13 @@
     - The search is case-sensitive when using a string.
     - When using a regular expression, you can use flags like `i` for case-insensitivity.
     - If no match is found, it returns -1.
+
+  - Regular expressions can include special characters and patterns for more complex searches.
+  - Common flags for regular expressions: 
+    - `i`(case-insensitive): Makes the search ignore case.
+    - `m`(multiline): I will treat beginning (^) and end ($) characters as working across multiple lines (i.e., match the beginning or end of each line (delimited by \n or \r), not only the very beginning or end of the whole string).
+    - `s`(dotAll): allows `.` to match newline characters
+    - `u`(unicode): enables full Unicode support
 
 ## 7. match() method
 
@@ -130,7 +137,7 @@
     ```javascript
     let phrase = "The rain in SPAIN stays mainly in the plain.";
     console.log(phrase.match(/ain/g)); // ["ain", "ain", "ain"]
-    console.log(phrase.match(/AIN/i)); // ["AIN"] (case-insensitive)
+    console.log(phrase.match(/AIN/i)); // ["ain"] (case-insensitive)
     console.log(phrase.match(/xyz/)); // null (no match)
     ```
 
@@ -159,6 +166,8 @@
     - The search is case-sensitive.
     - If `fromIndex` is greater than or equal to the string length, it returns `false`.
     - If `fromIndex` is negative, it is treated as 0.
+    - If `searchValue` is an empty string, it always returns `true`.
+    - If `searchValue` is not provided, it defaults to `undefined`, and the method returns `false`.
 
 ## 9. startsWith() method
 

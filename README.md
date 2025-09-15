@@ -25,6 +25,6 @@ My 100 days of code journey in JavaScript.
 | 2   | Comparison of data types and Type Coercion, Stack and Heap Memory | ✅ Done |
 | 3   | Strings and their methods | ✅ Done |
 | 4   | String Methods: `.length`, `.charAt()`, `.indexOf()`, `.lastIndexOf()`, `.charCodeAt()`, `.search()`, `.match()`, `.includes()`, `.startsWith()`, `.endsWith()` | ✅ Done |
-| 5   |  |  |
+| 5   | Practiced tricky questions on getting string information methods | ✅ Done |
 | ... | ... | ... |
 | 100 |  |  |

@@ -1,4 +1,4 @@
-# Day 04: Working with Strings and exploring all methods of it
+# Day 04 - 06: Working with Strings and exploring all methods of it
 
 ## 1️⃣ Getting Information from Strings
 
@@ -11,7 +11,7 @@
     let word = "Supercalifragilisticexpialidocious";
 
     const lengthOfWord = word.length;
-    console.log("The lenght of word is: " + lengthOfWord);  // The lenght of word is: 34
+    console.log("The length of word is: " + lengthOfWord);  // The length of word is: 34
     ```
 
   - It also counts spaces and special characters.
@@ -120,9 +120,9 @@
     - If no match is found, it returns -1.
 
   - Regular expressions can include special characters and patterns for more complex searches.
-  - Common flags for regular expressions: 
+  - Common flags for regular expressions:
     - `i`(case-insensitive): Makes the search ignore case.
-    - `m`(multiline): I will treat beginning (^) and end ($) characters as working across multiple lines (i.e., match the beginning or end of each line (delimited by \n or \r), not only the very beginning or end of the whole string).
+    - `m`(multiline): It treats ^ and $ as matching at the start and end of each line, not just the whole string
     - `s`(dotAll): allows `.` to match newline characters
     - `u`(unicode): enables full Unicode support
 
@@ -137,7 +137,7 @@
     ```javascript
     let phrase = "The rain in SPAIN stays mainly in the plain.";
     console.log(phrase.match(/ain/g)); // ["ain", "ain", "ain"]
-    console.log(phrase.match(/AIN/i)); // ["ain"] (case-insensitive)
+    console.log(phrase.match(/AIN/i)); // ["AIN"] (case-insensitive)
     console.log(phrase.match(/xyz/)); // null (no match)
     ```
 
@@ -210,3 +210,251 @@
     - The search is case-sensitive.
     - If `length` is greater than the string length, it considers the entire string.
     - If `length` is less than or equal to 0, it returns `false`.
+
+## 2️⃣ Modifying Strings
+
+## 11. toUpperCase() method
+
+- The `toUpperCase()` method returns a new string with all the characters converted to uppercase.  
+  - (sab letters uppercase me)
+
+  - Syntax:
+
+    ```javascript
+    string.toUpperCase()
+    ```
+
+  - Example:
+
+    ```javascript
+    let phrase = "Hello world!";
+    let upperCasePhrase = phrase.toUpperCase();
+    console.log(upperCasePhrase); // "HELLO WORLD!"
+    ```
+
+  - Notes:
+    - This method does not change the original string. It returns a new string.
+    - It works on all characters that have a corresponding uppercase value, including letters and special characters.
+
+---
+
+## 12. toLowerCase() method
+
+- The `toLowerCase()` method returns a new string with all the characters converted to lowercase.  
+  - (sab letters lowercase me)
+
+  - Syntax:
+
+    ```javascript
+    string.toLowerCase()
+    ```
+
+  - Example:
+
+    ```javascript
+    let phrase = "HELLO WORLD!";
+    let lowerCasePhrase = phrase.toLowerCase();
+    console.log(lowerCasePhrase); // "hello world!"
+    ```
+
+  - Notes:
+    - Similar to `toUpperCase()`, this method also returns a new string without modifying the original.
+
+---
+
+## 13. trim() method
+
+- The `trim()` method removes whitespace from both the beginning and end of a string.  
+  - (starting aur ending spaces remove karta hai)
+
+  - Syntax:  
+
+    ```javascript
+    string.trim()
+    ```
+
+  - Example:
+
+    ```javascript
+    let phrase = "   Hello World!   ";
+    let trimmedPhrase = phrase.trim();
+    console.log(trimmedPhrase); // "Hello World!"
+    ```
+
+  - Notes:
+    - This method removes spaces, tabs, and newlines from both sides of the string.
+    - Beech ka space (middle spaces) as-it-is rehta hai.
+
+---
+
+## 14. trimStart() / trimEnd() methods
+
+- The `trimStart()` method removes whitespace from the beginning of a string.  
+- The `trimEnd()` method removes whitespace from the end of a string.  
+  - (sirf ek side ka space remove)
+
+  - Syntax:
+
+    ```javascript
+    string.trimStart()
+    string.trimEnd()
+    ```
+
+  - Example:
+
+    ```javascript
+    let phrase = "   Hello World!   ";
+    let trimmedStart = phrase.trimStart();
+    let trimmedEnd = phrase.trimEnd();
+
+    console.log("Start trimmed: '" + trimmedStart + "'"); // "Start trimmed: 'Hello World!   '"
+    console.log("End trimmed: '" + trimmedEnd + "'");     // "End trimmed: '   Hello World!'"
+    ```
+
+  - Notes:
+    - These methods are useful for more specific control over whitespace removal.
+
+---
+
+## 15. padStart() method
+
+- The `padStart()` method pads the current string with another string until the resulting string reaches the given length from the start.  
+  - (string ke aage fill karta hai)
+
+  - Syntax:
+
+    ```javascript
+    string.padStart(targetLength, padString)
+    ```
+
+  - Parameters:
+    - `targetLength`: The length of the resulting string after padding.
+    - `padString` (optional): The string to pad with. Defaults to a single space.
+
+  - Example:
+
+    ```javascript
+    let str = "5";
+    let paddedStr = str.padStart(3, "0");
+    console.log(paddedStr); // "005"
+    ```
+
+  - Notes:
+    - If `targetLength` is less than or equal to the original string's length, the string is returned without any changes.
+    - Mostly numbers ko fixed digits me dikhane ke liye use hota hai (e.g., bank account, OTP, date formatting).
+
+---
+
+## 16. padEnd() method
+
+- The `padEnd()` method pads the current string with another string until the resulting string reaches the given length from the end.  
+  - (string ke baad fill karta hai)
+
+  - Syntax:
+
+    ```javascript
+    string.padEnd(targetLength, padString)
+    ```
+
+  - Parameters:
+    - `targetLength`: The length of the resulting string after padding.
+    - `padString` (optional): The string to pad with. Defaults to a single space.
+
+  - Example:
+
+    ```javascript
+    let str = "Hello";
+    let paddedStr = str.padEnd(10, "!");
+    console.log(paddedStr); // "Hello!!!!!"
+    ```
+
+  - Notes:
+    - This is often used for formatting data, such as aligning columns in a table-like format.
+
+---
+
+## 17. repeat() method
+
+- The `repeat()` method returns a new string with the specified number of copies of the original string concatenated together.  
+  - (string ko n times repeat karta hai)
+
+  - Syntax:
+
+    ```javascript
+    string.repeat(count)
+    ```
+
+  - Parameters:
+    - `count`: The number of times to repeat the string.
+
+  - Example:
+
+    ```javascript
+    let str = "abc";
+    let repeatedStr = str.repeat(3);
+    console.log(repeatedStr); // "abcabcabc"
+    ```
+
+  - Notes:
+    - `count` must be a positive number.  
+    - If it's 0, an empty string is returned.
+    - Agar count < 0 → RangeError aata hai.
+    - Agar count fractional (jaise 2.5) ho → JavaScript usko floor kar deta hai (i.e., 2).
+    - Is real use pattern printing ya dummy data banane me helpful hain.
+
+---
+
+## 18. replace() method
+
+- The `replace()` method returns a new string with one or all of the specified patterns replaced with a new value. By default, it only replaces the first match.  
+  - (ek part ko replace karta hai)
+
+  - Syntax:
+  
+    ```javascript
+    string.replace(searchValue, newValue)
+    ```
+
+  - Parameters:
+    - `searchValue`: The value to search for. This can be a string or a regular expression.
+    - `newValue`: The value to replace the match with.
+
+  - Example:
+  
+    ```javascript
+    let phrase = "Hello, world! Hello again!";
+    let newPhrase = phrase.replace("Hello", "Hi");
+    console.log(newPhrase); // "Hi, world! Hello again!"
+    ```
+
+  - Notes:
+    - This method is case-sensitive.  
+    - To replace all occurrences, you can use a regular expression with the global flag (`g`), or use `replaceAll()`.
+
+---
+
+## 19. replaceAll() method
+
+- The `replaceAll()` method returns a new string with all matches of a specified pattern replaced with a new value.  
+  - (saare matches ko replace karta hai)
+
+  - Syntax:
+  
+    ```javascript
+    string.replaceAll(searchValue, newValue)
+    ```
+
+  - Parameters:
+    - `searchValue`: The value to search for. This can be a string or a regular expression.
+    - `newValue`: The value to replace all matches with.
+
+  - Example:
+
+    ```javascript
+    let phrase = "Hello, world! Hello again!";
+    let newPhrase = phrase.replaceAll("Hello", "Hi");
+    console.log(newPhrase); // "Hi, world! Hi again!"
+    ```
+
+  - Notes:
+    - This method is a more modern alternative to using `replace()` with a global regex for string replacement.

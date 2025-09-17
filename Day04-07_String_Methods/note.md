@@ -1,4 +1,4 @@
-# Day 04 - 06: Working with Strings and exploring all methods of it
+# Day 04 - 07: Working with Strings and exploring all methods of it
 
 ## 1️⃣ Getting Information from Strings
 
@@ -458,3 +458,114 @@
 
   - Notes:
     - This method is a more modern alternative to using `replace()` with a global regex for string replacement.
+
+## 3️⃣ Extracting Substrings and Splitting Strings
+
+## 20. slice() method
+
+- The `slice()` method extracts a section of a string and returns it as a new string, without modifying the original string.  
+  - (string ke beech ka part nikalta hai)
+
+  - Syntax:
+
+    ```javascript
+    string.slice(startIndex, endIndex)
+    ```
+
+  - Parameters:
+    - `startIndex`: The position where extraction begins (zero-based).
+    - `endIndex` (optional): The position before which to end extraction. If omitted, it extracts till the end of the string.
+
+  - Example:
+
+    ```javascript
+    let phrase = "Hello, world!";
+    let slicedPhrase = phrase.slice(7, 12);
+    console.log(slicedPhrase); // "world"
+    ```
+
+  - Notes:
+    - If `startIndex` is negative, it is treated as `string.length + startIndex`.
+    - If `endIndex` is negative, it is treated as `string.length + endIndex`.
+    - If `startIndex` is greater than or equal to the string length, an empty string is returned.
+    - If `endIndex` is omitted or greater than the string length, extraction continues to the end of the string.
+  - 📝 Key Points:
+    - Positive indexes → left se count hote hain (0 first character).
+    - Negative indexes → right se count hote hain (-1 last character).
+    - Agar end chhod do → string ke end tak slice karega.
+    - Out of range indexes ignore hote hain, error nahi aata.
+
+## 21. substring() method
+
+- The `substring()` method extracts a portion of a string between two specified indices and returns it as a new string.  
+  - (start aur end ke beech ka part nikalta hai)
+
+- Syntax:
+
+  ```javascript
+  string.substring(startIndex, endIndex)
+  ````
+
+- Parameters:
+  - startIndex: The position where extraction starts (0-based).
+  - endIndex (optional): The position where extraction ends (but not included).
+    -If omitted, extraction continues to the end of the string.
+
+- Example:
+
+  ```javascript
+  let text = "JavaScript";
+  console.log(text.substring(0, 4));   // "Java"
+  console.log(text.substring(4, 10));  // "Script"
+  console.log(text.substring(4));      // "Script"
+  console.log(text.substring(10, 4));  // "Script" (swaps indices if start > end)
+  ```
+
+- Notes:
+  - If ``startIndex`` > ``endIndex``, they are automatically swapped.
+  - Negative values are treated as 0.
+  - It does not change the original string.
+  - Similar to ``.slice()``, but it does not accept negative indices.
+
+## 🔥 .slice() vs .substring() (JavaScript)
+
+| Feature / Case               | **.slice(start, end)**                                                           | **.substring(start, end)**                                                  |
+| ---------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Basic purpose**            | Part of string nikalna                                                           | Part of string nikalna                                                      |
+| **End index**                | Exclusive (include nahi hota)                                                    | Exclusive (include nahi hota)                                               |
+| **Negative indexes**         | Support karta hai (end se count karta hai) <br>👉 `str.slice(-3)` → last 3 chars | Negative ko **0** treat karta hai <br>👉 `str.substring(-3)` → poori string |
+| **If start > end**           | Empty string `""` return karta hai                                               | Start & end values **swap** ho jaati hain                                   |
+| **Changes original string?** | ❌ (naya string return karta hai)                                                 | ❌ (naya string return karta hai)                                            |
+| **Usage preference**         | ✅ Modern JS me recommended                                                       | ⚠️ Old codebases me dikhta hai                                              |
+
+## 22. split() method
+
+- The `split()` method splits a string into an array of substrings based on a specified separator.  
+  - (string ko tod kar array banata hai)
+
+- Syntax:
+
+  ```javascript
+  string.split(separator, limit)
+  ````
+
+- Parameters:
+  - ``separator`` (optional): Specifies the character, string, or regular expression to split the string.
+    - If omitted, the entire string is returned as a single-element array.
+    - If an empty string ``""`` is given, the string is split into individual characters.
+  - ``limit`` (optional): An integer that specifies the maximum number of substrings to include in the array.
+
+- Example:
+
+  ```javascript
+    let text = "apple,banana,cherry,orange";
+    console.log(text.split(","));  // ["apple", "banana", "cherry", "orange"]
+    console.log(text.split(",", 2));  // ["apple", "banana"]
+    console.log(text.split(""));  // ["a", "p", "p", "l", "e", ",", "b", "a", "n", "a", "n", "a", ...]
+    console.log(text.split());  // ["apple,banana,cherry,orange"]
+  ```
+
+- Notes:
+  - Returns an array of substrings, never modifies the original string.
+  - If separator is not found, the returned array contains the entire string as a single element.
+  - Useful for converting CSV strings, sentences, or characters into arrays.

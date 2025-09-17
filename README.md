@@ -26,5 +26,44 @@ My 100 days of code journey in JavaScript.
 | 3   | Strings and their methods | ✅ Done |
 | 4   | String Methods: `.length`, `.charAt()`, `.indexOf()`, `.lastIndexOf()`, `.charCodeAt()`, `.search()`, `.match()`, `.includes()`, `.startsWith()`, `.endsWith()` | ✅ Done |
 | 5   | Practiced tricky questions on getting string information methods | ✅ Done |
-| ... | ... | ... |
-| 100 |  |  |
+| 6 | String Methods: `.toUpperCase()`, `.toLowerCase()`, `.trim()`, `.trimStart()` / `.trimEnd()`, `.padStart()`, `.padEnd()`, `.repeat()` | ✅ Done |
+| 7 | Practiced questions on modifying string and learned `.replace()`, `.replaceAll()`, `.slice()`, `.substring()`, `.split()` these methods| ✅ Done |
+| 8 |  |  |
+| 9 |  |  |
+| 10 |  |  |
+| 11 |  |  |
+| 12 |  |  |
+
+## Repo Folder Structure
+
+## 📁 100-days-of-code-js
+
+```bash
+├── 📂 Day01
+│   ├── 📄 01_variables.js
+│   ├── 📄 02_datatypes.js
+│   ├── 📄 03_conversion.js
+│   ├── 📄 04_operations.js
+│   └── 📝 notes.md
+│
+├── 📂 Day02
+│   ├── 📄 01_comparison.js
+│   ├── 📄 02_datatype-summary.js
+│   ├── 📄 03_memory.js
+│   ├── 📝 notes.md
+│   └── 🖼️ Stack-vs-Heap-diagram.svg
+│
+├── 📂 Day03
+│   └── 📄 String.js
+│
+├── 📂 Day04-06_String_Methods
+│   ├── 📄 01_Get-Info-from-Strings.js
+│   ├── 📄 02_Practice.js
+│   ├── 📄 03_Tricky-question.js
+│   ├── 📄 04_Modifying_Strings.js
+│   ├── 📝 note.md
+│   └── 📝 String-method-cheetsheet.md
+│
+├── ⚙️ .gitattributes
+├── 📜 LICENSE
+└── 📝 README.md

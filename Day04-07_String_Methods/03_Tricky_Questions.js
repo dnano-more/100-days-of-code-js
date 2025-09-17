@@ -70,3 +70,51 @@ console.log(str3.charAt(0).toUpperCase());  // H
 console.log(str3.charCodeAt(10));   // 100
 console.log(str3.includes("world"));  // true
 console.log(str3.includes("HELLO"));  // false
+
+
+/*
+* 🔴 Tricky Level
+
+* Ek sentence " Coding is awesome! " ko trim karke fir .repeat(2) karo.
+* 👉 Expected: "Coding is awesome!Coding is awesome!" */
+
+let coding = " Coding is awesome! "
+let trimedStr = coding.trim().repeat(2)  // now I'm becoming pro in coding😎
+console.log(trimedStr);
+
+
+/* 
+* "987" string ko .padStart(6,"0") aur .padEnd(8,"#") ke saath modify karo.
+* 👉 Expected: "000987##" */
+
+let numStr = "987"
+let padStr = numStr.padStart(6,"0").padEnd(8,"#")
+console.log(padStr)
+
+
+/*
+* "apple,banana,grapes,mango" ko .split(",") se array me convert karo aur fir usme se "banana" ko .replace() se "kiwi" karo.
+* 👉 Expected Array: ["apple","kiwi","grapes","mango"] */
+
+let fruits = "apple,banana,grapes,mango"
+let splitedStr = fruits.replace("banana", "kiwi").split(",")
+console.log(splitedStr);
+
+// console.log(splitedStr.replace("banana", "kiwi"));  // Nahi hoga replace kinv ki splitedStr is variable mein array stoar hai.
+
+
+/*
+* "JavascriptJavascriptJavascript" string me se beech wala "Javascript" cut karke nikal do using .substring(). */
+
+let bigStr = "JavascriptJavascriptJavascript"
+let findMiddleString = bigStr.indexOf("t")  // 9 
+
+console.log(bigStr.substring(10, 20));
+
+
+// Ek string "a-b-c-d" ko .split("-") use karke array banao aur fir us array ko join karke "abcd" banao (hint: .join("")).
+
+let abcd = "a-b-c-d"
+let splitedStr2 = abcd.split("-").join("");
+
+console.log(splitedStr2);

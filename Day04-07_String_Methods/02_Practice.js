@@ -99,3 +99,61 @@ console.log(mixQuest.length);           // 6
 console.log(mixQuest.charAt(2));       // d
 console.log(mixQuest.includes('ing'));  // true
 console.log(mixQuest.indexOf('g'));    // 5
+
+
+// 🔹 Practice Questions on Modifying String methods
+
+/* 
+*🟡 Medium Level
+
+1. Ek string " JavaScript is fun " ko trim karke words me todho using .split(" ").
+👉 Expected: ["JavaScript","is","fun"] */
+
+let jsFunStr = " JavaScript is fun "
+let trimedStr = jsFunStr.trim();
+// console.log(trimedStr);
+
+let stoarTreamedStr = trimedStr
+console.log(stoarTreamedStr.split(" "));
+
+
+// "123" string ko .padStart(5, "0") se "00123" banao. Fir usi ko .padEnd(8,"*") se "00123***" banao.
+
+let numStr = "123"
+let padStartStr = numStr.padStart(5, "0");
+console.log(padStartStr)
+
+let padEndStr = padStartStr.padEnd(8, "*");
+console.log(padEndStr);
+
+// "banana" me pehla "a" ko "o" se replace karo aur fir result ko uppercase me convert karo.
+
+let fruit = "banana"
+let replacedStr = fruit.replace("a", "o");
+console.log(replacedStr.toUpperCase());
+
+// Ek string "FrontendDeveloper" se "End" substring extract karo using .slice().
+
+let role = "FrontendDeveloper" 
+console.log(role.indexOf("end"));  // 5
+console.log(role.slice(5, 8))  // end
+
+// "hello world world" me sabhi "world" ko "JS" se replace karo.
+
+let repeatedWords = "hello world world"
+console.log(repeatedWords.replaceAll("world", "JS"))
+
+// 🔴 Tricky Level
+
+// Ek sentence " Coding is awesome! " ko trim karke fir .repeat(2) karo.
+// 👉 Expected: "Coding is awesome!Coding is awesome!"
+
+// "987" string ko .padStart(6,"0") aur .padEnd(8,"#") ke saath modify karo.
+// 👉 Expected: "000987##"
+
+// "apple,banana,grapes,mango" ko .split(",") se array me convert karo aur fir usme se "banana" ko .replace() se "kiwi" karo.
+// 👉 Expected Array: ["apple","kiwi","grapes","mango"]
+
+// "JavascriptJavascriptJavascript" string me se beech wala "Javascript" cut karke nikal do using .substring().
+
+// Ek string "a-b-c-d" ko .split("-") use karke array banao aur fir us array ko join karke "abcd" banao (hint: .join("")).

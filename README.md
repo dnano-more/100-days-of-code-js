@@ -29,7 +29,7 @@ My 100 days of code journey in JavaScript.
 | 6 | String Methods: `.toUpperCase()`, `.toLowerCase()`, `.trim()`, `.trimStart()` / `.trimEnd()`, `.padStart()`, `.padEnd()`, `.repeat()` | ✅ Done |
 | 7 | Practiced questions on modifying string and learned `.replace()`, `.replaceAll()`, `.slice()`, `.substring()`, `.split()` these methods| ✅ Done |
 | 8 | Learned about Numbers and their methods. and practiced questions on them | ✅ Done |
-| 9 |  |  |
+| 9 | Learned about Math methods and practiced questions on them | ✅ Done |
 | 10 |  |  |
 | 11 |  |  |
 | 12 |  |  |
@@ -66,6 +66,8 @@ My 100 days of code journey in JavaScript.
 │
 ├── 📂 Day08_Nums_and_Math
 │   ├── 📄 01_Numbers.js
+│   ├── 📄 02_Maths.js
+│   ├── 📝 Math_CheatSheet.md
 │   └── 📄 Practice.js
 │
 ├── ⚙️ .gitattributes

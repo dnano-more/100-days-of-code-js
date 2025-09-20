@@ -30,7 +30,7 @@ My 100 days of code journey in JavaScript.
 | 7 | Practiced questions on modifying string and learned `.replace()`, `.replaceAll()`, `.slice()`, `.substring()`, `.split()` these methods| ✅ Done |
 | 8 | Learned about Numbers and their methods. and practiced questions on them | ✅ Done |
 | 9 | Learned about Math methods and practiced questions on them | ✅ Done |
-| 10 |  |  |
+| 10 | Learned about Dates and Time | ✅ Done |
 | 11 |  |  |
 | 12 |  |  |
 
@@ -56,7 +56,7 @@ My 100 days of code journey in JavaScript.
 ├── 📂 Day03
 │   └── 📄 String.js
 │
-├── 📂 Day04-06_String_Methods
+├── 📂 Day04-07_String_Methods
 │   ├── 📄 01_Get-Info-from-Strings.js
 │   ├── 📄 02_Practice.js
 │   ├── 📄 03_Tricky-question.js
@@ -64,11 +64,15 @@ My 100 days of code journey in JavaScript.
 │   ├── 📝 note.md
 │   └── 📝 String-method-cheetsheet.md
 │
-├── 📂 Day08_Nums_and_Math
+├── 📂 Day08 - 09_Nums_and_Math
 │   ├── 📄 01_Numbers.js
 │   ├── 📄 02_Maths.js
 │   ├── 📝 Math_CheatSheet.md
 │   └── 📄 Practice.js
+│
+├── 📂 Day10-Dates_and_Time
+│   └── 📄 Dates.js
+│
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

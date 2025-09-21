@@ -20,12 +20,6 @@ console.log(myCreatedDate.toLocaleString());  // 1/15/2025, 5:30:00 AM  (In case
 let indDate = new Date("01-16-2025");
 console.log(indDate.toLocaleString());  //1/16/2025, 12:00:00 AM
 
-// set date
-let d = new Date();
-console.log(d.setFullYear(2030));
-console.log(d.setMonth(11)); // December
-console.log(d.setDate(25));  // Christmas 🎄
-
 
 // Timestamps in dates
 let myTimeStamp = Date.now();
@@ -42,8 +36,8 @@ console.log(Math.floor(Date.now()/1000));  // 1758384318
 let newDate = new Date();
 console.log(newDate);    // 2025-09-20T16:08:32.200Z
 console.log(newDate.getDate());  // 20
-console.log(newDate.getDay());  // 6
-console.log(newDate.getMonth());  // 8  (month 0 se start ho raha haun.)
+console.log(newDate.getDay());  // 6  (0=Sunday, 6=Saturday)
+console.log(newDate.getMonth());  // 8  (month 0 se start ho raha hain.)
 console.log(newDate.getMonth() + 1);  // 9  
 console.log(newDate.getHours());  // 21
 console.log(newDate.getMinutes());  // 44
@@ -64,3 +58,8 @@ newDate.toLocaleString('default', {
 });
 
 console.log(newDate);  // 2025-09-20T16:50:56.167Z
+
+/*
+Month hamesha 0 based hota hai.
+Days aur Years 1 based hote hain.
+Jo bhi set methods use karoge (setFullYear, setMonth, etc.), wo timestamp update kar dete hain, aur agar console.log() sirf number dikhata hai toh samajh lo wo internal milliseconds dikha raha hai. Readable banane ke liye .toString() ya .toLocaleString() lagao. */

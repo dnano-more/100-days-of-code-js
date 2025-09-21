@@ -31,7 +31,7 @@ My 100 days of code journey in JavaScript.
 | 8 | Learned about Numbers and their methods. and practiced questions on them | ✅ Done |
 | 9 | Learned about Math methods and practiced questions on them | ✅ Done |
 | 10 | Learned about Dates and Time | ✅ Done |
-| 11 |  |  |
+| 11 | Practiced working with Dates and Times | ✅ Done |
 | 12 |  |  |
 
 ## Repo Folder Structure
@@ -71,8 +71,8 @@ My 100 days of code journey in JavaScript.
 │   └── 📄 Practice.js
 │
 ├── 📂 Day10-Dates_and_Time
-│   └── 📄 Dates.js
-│
+│   ├── 📄 Dates.js
+│   └── 📄 Practice.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

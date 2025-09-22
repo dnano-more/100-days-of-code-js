@@ -32,7 +32,7 @@ My 100 days of code journey in JavaScript.
 | 9 | Learned about Math methods and practiced questions on them | ✅ Done |
 | 10 | Learned about Dates and Time | ✅ Done |
 | 11 | Practiced working with Dates and Times | ✅ Done |
-| 12 |  |  |
+| 12 | Learn about arrays and their few methods, diff between slice and splice | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -73,6 +73,10 @@ My 100 days of code journey in JavaScript.
 ├── 📂 Day10-Dates_and_Time
 │   ├── 📄 Dates.js
 │   └── 📄 Practice.js
+│
+├── 📂 Day12-Array
+│   ├── 📄 Arrays.js
+│   └── 
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

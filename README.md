@@ -33,6 +33,7 @@ My 100 days of code journey in JavaScript.
 | 10 | Learned about Dates and Time | ✅ Done |
 | 11 | Practiced working with Dates and Times | ✅ Done |
 | 12 | Learn about arrays and their few methods, diff between slice and splice | ✅ Done |
+| 13 | Arrays Part 2: explored `.push()` vs `.concat()`, spread operator, `.flat()`, `.isArray()`, `.from()`, `.of()` | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -74,9 +75,9 @@ My 100 days of code journey in JavaScript.
 │   ├── 📄 Dates.js
 │   └── 📄 Practice.js
 │
-├── 📂 Day12-Array
+├── 📂 Day12-13-Arrays
 │   ├── 📄 Arrays.js
-│   └── 
+│   └── More_on_Arrays.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

@@ -36,6 +36,7 @@ My 100 days of code journey in JavaScript.
 | 13 | Arrays Part 2: explored `.push()` vs `.concat()`, spread operator, `.flat()`, `.isArray()`, `.from()`, `.of()` | ✅ Done |
 | 14 | Recap of Day 12 and 13 | ✅ Done |
 | 15 | Array basics & beginner methods practice | ✅ Done |
+| 16 | More array methods practice | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -77,10 +78,10 @@ My 100 days of code journey in JavaScript.
 │   ├── 📄 Dates.js
 │   └── 📄 Practice.js
 │
-├── 📂 Day12-15-Arrays
-│   ├── 📄 Arrays.js
-│   ├── 📄 More_on_Arrays.js
-│   ├── 📄 Day12-13_recap.js
+├── 📂 Day12-16-Arrays
+│   ├── 📄 01_Arrays.js
+│   ├── 📄 02_More_on_Arrays.js
+│   ├── 📄 03_Day12-13_recap.js
 │   └── 📄 Practice.js
 │
 ├── ⚙️ .gitattributes

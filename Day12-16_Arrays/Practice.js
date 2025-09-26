@@ -80,7 +80,7 @@ let dc_heros = ["Wonder Women", "Aquaman", "Harley Quinn"];
 let vertigo_heros = ["Lucifer", "Robin", "Lucifer Morningstar"]
 
 let hollywood_heros = marvel_heros.concat(dc_heros, vertigo_heros);
-console.log(hollywood_heros);  
+console.log(hollywood_heros);
 //O/p: [ 'Captain', 'Dr.Strange', 'Hulk', 'Wonder Women', 'Aquaman', 'Harley Quinn', 'Lucifer', 'Robin', 'Lucifer Morningstar'];
 
 // join() - Adds all the elements of an array into a string, separated by the specified separator string.
@@ -90,3 +90,79 @@ console.log(allHeros);
 
 allHeros = hollywood_heros.join(' + ');
 console.log(allHeros);  // O/p: Captain + Dr.Strange + Hulk + Wonder Women + Aquaman + Harley Quinn + Lucifer + Robin + Lucifer Morningstar
+
+// isArray() - checks the variable is aary or not.
+let var1 = "This is js"
+let var2 = 286
+let var3 = [1, 2, 3, 4]
+
+// let checkArr = Array.isArray(var1);  // false
+// let checkArr = Array.isArray(var2);  // false
+let checkArr = Array.isArray(var3);  // true
+console.log(checkArr);
+
+// reverse() - It reverse the aaray elements from their place. This method mutates the array and returns a reference to the same array.
+
+const words = ["first", "second", "third", "fourth"]
+console.log(words);
+
+words.reverse();
+console.log(words);  // O/p: [ 'fourth', 'third', 'second', 'first' ]
+
+// toReversed() - Returns a copy of an array with its elements reversed. Its not modify the original aaray.
+const toReversedArr = words.toReversed();
+console.log(toReversedArr);
+// O/p: [ 'first', 'second', 'third', 'fourth' ]
+
+// slice() - Returns a copy of a section of an array.
+const colors = ['red', 'green', 'blue', 'yellow'];
+
+console.log(colors.slice(1, 3));  // O/p: [ 'green', 'blue' ]
+console.log(colors.slice());     // O/p: [ 'red', 'green', 'blue', 'yellow' ] 
+// (Agar start param nahi doge to by default 0 index se start karega aur end nahi diya to aary ke last tak sclice karega.)
+console.log(colors.slice(0, -1)); // O/p: [ 'red', 'green', 'blue' ]  ( accept -1 values too. )
+
+// splice() - Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
+const mahine = ["January", "February", "March", "April", "May", "June"];
+
+// 3rd wale index ka month ko delete karte hain
+console.log(mahine.splice(2, 1));  // O/p: [ 'March' ]
+console.log(mahine);  // O/p: [ 'January', 'February', 'April', 'May', 'June' ]
+
+// Pure aaray elements ko hi delete karte hain
+console.log(mahine.splice(0))  // O/p: [ 'January', 'February', 'April', 'May', 'June' ]
+console.log(mahine);  // O/p: []
+
+// Ab empty array mein elements add karte hain
+console.log(mahine.splice(0, 0, "July", "August"))  // O/p: []
+console.log(mahine);  // O/p: [ 'July', 'August' ]
+
+// toSpliced() - Copies an array and removes elements and, if necessary, inserts new elements in their place. Returns the copied array.
+const mahine2 = ["January", "February", "March", "April", "May", "June"];
+
+let copiedSpliceArr = mahine2.toSpliced(2, 3);  // ["March", "April", "May"] rmove ho jayenge.
+console.log(copiedSpliceArr);  // O/p: [ 'January', 'February', 'June' ]
+
+console.log(mahine2);  // verified that original aary is not modified
+
+// Lests add deleted months back to their place.
+let copiedSpliceArr2 = copiedSpliceArr.toSpliced(2, 0, "March", "April", "May")
+console.log(copiedSpliceArr2); 
+// O/p: [ 'January', 'February', 'March', 'April', 'May', 'June' ]
+
+
+// indexOf() - Returns the index of the first occurrence of a value in an array, or -1 if it is not present. 
+let indexOfElement = mahine2.indexOf("May");
+console.log(indexOfElement);  // 4
+
+indexOfElement = mahine2.indexOf("may");
+console.log(indexOfElement);  // -1  ( case sensitive hota hain ye.)
+
+indexOfElement = mahine2.indexOf("hello");
+console.log(indexOfElement);  // -1
+
+// includes() -
+let includes = mahine2.includes("February");
+console.log(includes);  // true
+includes = mahine2.includes("february");
+console.log(includes);  // false (case sensitive)

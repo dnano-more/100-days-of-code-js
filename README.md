@@ -37,6 +37,8 @@ My 100 days of code journey in JavaScript.
 | 14 | Recap of Day 12 and 13 | ✅ Done |
 | 15 | Array basics & beginner methods practice | ✅ Done |
 | 16 | More array methods practice | ✅ Done |
+| 17 | Deep dive into Objects in JavaScript | ✅ Done |
+| 18 | Learnd about nesting, mearging and acessing properties of object | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -83,6 +85,10 @@ My 100 days of code journey in JavaScript.
 │   ├── 📄 02_More_on_Arrays.js
 │   ├── 📄 03_Day12-13_recap.js
 │   └── 📄 Practice.js
+│
+├── 📂 Day17_Objects
+│   ├── 📄 01_Objects.js
+│   └── 📄 02_Objects2.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

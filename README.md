@@ -39,6 +39,7 @@ My 100 days of code journey in JavaScript.
 | 16 | More array methods practice | ✅ Done |
 | 17 | Deep dive into Objects in JavaScript | ✅ Done |
 | 18 | Learnd about nesting, mearging and acessing properties of object | ✅ Done |
+| 19 | Object Destructuring & JSON API overview | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -86,9 +87,10 @@ My 100 days of code journey in JavaScript.
 │   ├── 📄 03_Day12-13_recap.js
 │   └── 📄 Practice.js
 │
-├── 📂 Day17_Objects
+├── 📂 Day17-19_Objects
 │   ├── 📄 01_Objects.js
-│   └── 📄 02_Objects2.js
+│   ├── 📄 02_Objects2.js
+│   └── 📄 03_Objects3.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

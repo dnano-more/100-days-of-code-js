@@ -40,6 +40,9 @@ My 100 days of code journey in JavaScript.
 | 17 | Deep dive into Objects in JavaScript | ✅ Done |
 | 18 | Learnd about nesting, mearging and acessing properties of object | ✅ Done |
 | 19 | Object Destructuring & JSON API overview | ✅ Done |
+| 20 | Functions and Parameters | ✅ Done |
+| 21 | Function with objects and arrays | ✅ Done |
+| 22 | Global and Local scope | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -77,7 +80,7 @@ My 100 days of code journey in JavaScript.
 │   ├── 📝 Math_CheatSheet.md
 │   └── 📄 Practice.js
 │
-├── 📂 Day10-Dates_and_Time
+├── 📂 Day10-11-Dates_and_Time
 │   ├── 📄 Dates.js
 │   └── 📄 Practice.js
 │
@@ -91,6 +94,15 @@ My 100 days of code journey in JavaScript.
 │   ├── 📄 01_Objects.js
 │   ├── 📄 02_Objects2.js
 │   └── 📄 03_Objects3.js
+│
+├── 📂 Day20_Functions_and_Parameters
+│   └── 📄 01_Functions.js
+│
+├── 📂 Day21_Functions_with_Objects
+│   └── 📄 01_FnWithObj.js
+│
+├── 📂 Day22_Global_and_Local_scope
+│   └── 📄 01_Scope.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

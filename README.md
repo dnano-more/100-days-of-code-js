@@ -43,6 +43,7 @@ My 100 days of code journey in JavaScript.
 | 20 | Functions and Parameters | ✅ Done |
 | 21 | Function with objects and arrays | ✅ Done |
 | 22 | Global and Local scope | ✅ Done |
+| 23 | Scope level and mini hoisting | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -102,7 +103,8 @@ My 100 days of code journey in JavaScript.
 │   └── 📄 01_FnWithObj.js
 │
 ├── 📂 Day22_Global_and_Local_scope
-│   └── 📄 01_Scope.js
+│   ├── 📄 01_Scope.js
+│   └── 📄 02_ScopInFunction.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

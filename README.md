@@ -45,6 +45,7 @@ My 100 days of code journey in JavaScript.
 | 22 | Global and Local scope | ✅ Done |
 | 23 | Scope level and mini hoisting | ✅ Done |
 | 24 | Arrow function and This keyword | ✅ Done |
+| 25 | Practiced 'this' keyword with all scenarios | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -107,8 +108,9 @@ My 100 days of code journey in JavaScript.
 │   ├── 📄 01_Scope.js
 │   └── 📄 02_ScopInFunction.js
 │
-├── 📂 Day24_Arrow_function_and_This_keyword
-│   └── 📄 01_Arrow.js
+├── 📂 Day24-25_Arrow_function_and_This_keyword
+│   ├── 📄 01_Arrow.js
+│   └── 📄 Practice.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

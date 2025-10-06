@@ -46,6 +46,7 @@ My 100 days of code journey in JavaScript.
 | 23 | Scope level and mini hoisting | ✅ Done |
 | 24 | Arrow function and This keyword | ✅ Done |
 | 25 | Practiced 'this' keyword with all scenarios | ✅ Done |
+| 26 | IIFE (Immediately Invoked Function Expression) | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -111,6 +112,9 @@ My 100 days of code journey in JavaScript.
 ├── 📂 Day24-25_Arrow_function_and_This_keyword
 │   ├── 📄 01_Arrow.js
 │   └── 📄 Practice.js
+|
+├── 📂 Day26-IIFE
+│   └── 📄 01_IIFE.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

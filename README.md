@@ -47,6 +47,7 @@ My 100 days of code journey in JavaScript.
 | 24 | Arrow function and This keyword | ✅ Done |
 | 25 | Practiced 'this' keyword with all scenarios | ✅ Done |
 | 26 | IIFE (Immediately Invoked Function Expression) | ✅ Done |
+| 27 | Exicuition Context and Call Stack | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -115,6 +116,9 @@ My 100 days of code journey in JavaScript.
 |
 ├── 📂 Day26-IIFE
 │   └── 📄 01_IIFE.js
+│
+├── 📂 Day27-Exicution_and_Callstack
+│   └── 📄 callStack.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

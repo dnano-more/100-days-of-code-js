@@ -48,6 +48,7 @@ My 100 days of code journey in JavaScript.
 | 25 | Practiced 'this' keyword with all scenarios | ✅ Done |
 | 26 | IIFE (Immediately Invoked Function Expression) | ✅ Done |
 | 27 | Exicuition Context and Call Stack | ✅ Done |
+| 28 | Learned control flow (if, else if, else, and switch statements) | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -119,6 +120,10 @@ My 100 days of code journey in JavaScript.
 │
 ├── 📂 Day27-Exicution_and_Callstack
 │   └── 📄 callStack.js
+│
+├── 📂 Day28-29_Control_Flow
+│   ├── 📄 01_If_else.js
+│   └── 📄 02_Switch.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

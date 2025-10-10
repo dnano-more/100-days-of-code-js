@@ -47,8 +47,10 @@ My 100 days of code journey in JavaScript.
 | 24 | Arrow function and This keyword | ✅ Done |
 | 25 | Practiced 'this' keyword with all scenarios | ✅ Done |
 | 26 | IIFE (Immediately Invoked Function Expression) | ✅ Done |
-| 27 | Exicuition Context and Call Stack | ✅ Done |
+| 27 | Execution Context and Call Stack | ✅ Done |
 | 28 | Learned control flow (if, else if, else, and switch statements) | ✅ Done |
+| 29 | Explored truthy and falsy values | ✅ Done |
+| 30 | Difference between Nullish Coalescing Operator (??) and Ternary Operator (?:) | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -118,12 +120,13 @@ My 100 days of code journey in JavaScript.
 ├── 📂 Day26-IIFE
 │   └── 📄 01_IIFE.js
 │
-├── 📂 Day27-Exicution_and_Callstack
+├── 📂 Day27-Execution_and_Callstack
 │   └── 📄 callStack.js
 │
-├── 📂 Day28-29_Control_Flow
+├── 📂 Day28-30_Control_Flow
 │   ├── 📄 01_If_else.js
 │   └── 📄 02_Switch.js
+│   └── 📄 03.Truthy_Falsy.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

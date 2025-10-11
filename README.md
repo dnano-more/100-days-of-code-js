@@ -51,6 +51,7 @@ My 100 days of code journey in JavaScript.
 | 28 | Learned control flow (if, else if, else, and switch statements) | ✅ Done |
 | 29 | Explored truthy and falsy values | ✅ Done |
 | 30 | Difference between Nullish Coalescing Operator (??) and Ternary Operator (?:) | ✅ Done |
+| 31 | Learned for loop, nested for loop | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -125,8 +126,13 @@ My 100 days of code journey in JavaScript.
 │
 ├── 📂 Day28-30_Control_Flow
 │   ├── 📄 01_If_else.js
-│   └── 📄 02_Switch.js
+│   ├── 📄 02_Switch.js
 │   └── 📄 03.Truthy_Falsy.js
+│
+├── 📂 Day31-32_Control_Flow
+│   ├── 📄 01_For_loop.js
+│   ├── 📄 
+│   └── 📄 
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

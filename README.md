@@ -53,6 +53,7 @@ My 100 days of code journey in JavaScript.
 | 30 | Difference between Nullish Coalescing Operator (??) and Ternary Operator (?:) | ✅ Done |
 | 31 | Learned for loop, nested for loop | ✅ Done |
 | 32 | Explored break & continue keyword and while, do-while loop | ✅ Done |
+| 33 | Explored for-in and for-of loop | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -134,6 +135,11 @@ My 100 days of code journey in JavaScript.
 │   ├── 📄 01_For_loop.js
 │   ├── 📄 02_break_continue.js
 │   └── 📄 03_while_do_while.js
+│
+├── 📂 Day33-34_High_Order_loops
+│   ├── 📄 01_for-of.js
+│   ├── 📄 02_for-in.js
+│   └── 📄 
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

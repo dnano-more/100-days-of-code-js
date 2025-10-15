@@ -54,6 +54,8 @@ My 100 days of code journey in JavaScript.
 | 31 | Learned for loop, nested for loop | ✅ Done |
 | 32 | Explored break & continue keyword and while, do-while loop | ✅ Done |
 | 33 | Explored for-in and for-of loop | ✅ Done |
+| 34 | Explored forEach loop | ✅ Done |
+| 35 | revised all loops and practiced questions on them | ⏳ In Progress |
 
 ## Repo Folder Structure
 
@@ -136,10 +138,11 @@ My 100 days of code journey in JavaScript.
 │   ├── 📄 02_break_continue.js
 │   └── 📄 03_while_do_while.js
 │
-├── 📂 Day33-34_High_Order_loops
+├── 📂 Day33-36_High_Order_loops
 │   ├── 📄 01_for-of.js
 │   ├── 📄 02_for-in.js
-│   └── 📄 
+│   ├── 📄 03_for-each.js
+│   └── 📄 04_Practice.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

@@ -55,7 +55,7 @@ My 100 days of code journey in JavaScript.
 | 32 | Explored break & continue keyword and while, do-while loop | ✅ Done |
 | 33 | Explored for-in and for-of loop | ✅ Done |
 | 34 | Explored forEach loop | ✅ Done |
-| 35 | revised all loops and practiced questions on them | ⏳ In Progress |
+| 35 | Practiced some high-order loops | ✅ Done |
 
 ## Repo Folder Structure
 

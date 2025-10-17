@@ -56,6 +56,7 @@ My 100 days of code journey in JavaScript.
 | 33 | Explored for-in and for-of loop | ✅ Done |
 | 34 | Explored forEach loop | ✅ Done |
 | 35 | Practiced some high-order loops | ✅ Done |
+| 36 | filter method in detail, filter vs forEach | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -138,11 +139,16 @@ My 100 days of code journey in JavaScript.
 │   ├── 📄 02_break_continue.js
 │   └── 📄 03_while_do_while.js
 │
-├── 📂 Day33-36_High_Order_loops
+├── 📂 Day33-35_High_Order_loops
 │   ├── 📄 01_for-of.js
 │   ├── 📄 02_for-in.js
 │   ├── 📄 03_for-each.js
 │   └── 📄 04_Practice.js
+│
+├── 📂 Day36-38_filter_map_and_reduce
+│   ├── 📄 01_filter.js
+│   ├── 📄 
+│   └── 📄 
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

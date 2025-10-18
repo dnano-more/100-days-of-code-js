@@ -57,6 +57,7 @@ My 100 days of code journey in JavaScript.
 | 34 | Explored forEach loop | ✅ Done |
 | 35 | Practiced some high-order loops | ✅ Done |
 | 36 | filter method in detail, filter vs forEach | ✅ Done |
+| 37 | map() and reduce() methods | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -147,8 +148,8 @@ My 100 days of code journey in JavaScript.
 │
 ├── 📂 Day36-38_filter_map_and_reduce
 │   ├── 📄 01_filter.js
-│   ├── 📄 
-│   └── 📄 
+│   ├── 📄 02_map.js
+│   └── 📄 03_reduce.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

@@ -59,6 +59,7 @@ My 100 days of code journey in JavaScript.
 | 36 | filter method in detail, filter vs forEach | ✅ Done |
 | 37 | map() and reduce() methods | ✅ Done |
 | 38 | Learned object destructuring, default values & reference behavior in JS | ✅ Done |
+| 39 | Arrow Function and 'this' keyword behavior + Execution Context and Call Stack Demo | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -153,8 +154,8 @@ My 100 days of code journey in JavaScript.
 │   └── 📄 03_reduce.js
 |
 ├── 📂 js-lab
-│   ├── 📄 Day38_Notes.js
-│   └── 📄 
+│   ├── 📄 Day38_Code.js
+│   └── 📄 Day39_Code.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

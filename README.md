@@ -62,6 +62,7 @@ My 100 days of code journey in JavaScript.
 | 39 | Arrow Function and 'this' keyword behavior + Execution Context and Call Stack Demo | ✅ Done |
 | 40 | Re-explored classic loops, tested nested for-loops, table generation, and user-input validation using do-while | ✅ Done |
 | 41 | Explored callback patterns, returning functions, and difference between .forEach() & .map(). Clearer picture of JS function magic | ✅ Done |
+| 42 | High order array methods - `.find()`, `.findindex()`, re-explored - `.filter()` and `.reduce()` | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -159,7 +160,8 @@ My 100 days of code journey in JavaScript.
 │   ├── 📄 Day38_Code.js
 |   ├── 📄 Day39_Code.js
 |   ├── 📄 Day40_Code.js
-│   └── 📄 Day41_Code.js
+│   ├── 📄 Day41_Code.js
+│   └── 📄 Day42_Code.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

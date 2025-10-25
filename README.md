@@ -64,6 +64,7 @@ My 100 days of code journey in JavaScript.
 | 41 | Explored callback patterns, returning functions, and difference between .forEach() & .map(). Clearer picture of JS function magic | ✅ Done |
 | 42 | High order array methods - `.find()`, `.findindex()`, re-explored - `.filter()` and `.reduce()` | ✅ Done |
 | 43 | DOM Basics and Structure Explained | ✅ Done |
+| 44 | Practiced basic DOM manipulation using an external JavaScript file | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -165,7 +166,8 @@ My 100 days of code journey in JavaScript.
 │   └── 📄 Day42_Code.js
 │
 ├── 📂 Day43_Dom
-│   └── 📄 domIntro.html
+|   ├── 📄 domIntro.html
+│   └── 📄 script1.js
 │
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

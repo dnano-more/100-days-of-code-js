@@ -65,7 +65,7 @@ My 100 days of code journey in JavaScript.
 | 42 | High order array methods - `.find()`, `.findindex()`, re-explored - `.filter()` and `.reduce()` | ✅ Done |
 | 43 | DOM Basics and Structure Explained | ✅ Done |
 | 44 | Practiced basic DOM manipulation using an external JavaScript file | ✅ Done |
-| 45 | DOM Selectors and Element Manipulation | ✅ Done |
+| 45 | DOM Selectors and Element Manipulation, Nodelist and HTML collection| ✅ Done |
 
 ## Repo Folder Structure
 
@@ -170,6 +170,7 @@ My 100 days of code journey in JavaScript.
 |   ├── 📄 domIntro.html
 |   ├── 📄 script1.js
 |   ├── 📄 selectors.js
+|   ├── 📄 selectors2.js
 │   └── 📄 structure.html
 │
 ├── ⚙️ .gitattributes

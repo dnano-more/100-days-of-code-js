@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Nodelist through js</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+
+<script>
+    // Creating HTML element
+    const div = document.createElement('Div');
+    const h1 = document.createElement('h1');
+    console.log(div);
+
+    // setting className and id in that created elements
+    div.className = "main" 
+    // div.id = "myId" 
+    div.id = Math.round(Math.random() * 10 + 1)
+
+    // adding custom attributes
+    div.setAttribute("title", "creating elements through JS");
+
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+
+    // div.innerText = "Chai Aur Code"
+    //note: .className and .innerText ye values ko overide karte hain. It means ki wo attributes select karke late hain(uska reference) aur unme phir new value change ya set karte hain. Otherhand .setAttribute ye values ko leke nahi aata balki direct values ko set karta hain. Isse ek rounter bachta hain wahan par.
+    // Thats why pro devs prefer to use ⬇
+    const addText = document.createTextNode("Chai Aur Code")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+</script>
+</html>

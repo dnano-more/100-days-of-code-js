@@ -66,6 +66,7 @@ My 100 days of code journey in JavaScript.
 | 43 | DOM Basics and Structure Explained | ✅ Done |
 | 44 | Practiced basic DOM manipulation using an external JavaScript file | ✅ Done |
 | 45 | DOM Selectors and Element Manipulation, Nodelist and HTML collection| ✅ Done |
+| 46 | DOM Traversing & Creating Elements Dynamically | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -166,13 +167,17 @@ My 100 days of code journey in JavaScript.
 │   ├── 📄 Day41_Code.js
 │   └── 📄 Day42_Code.js
 │
-├── 📂 Day43_Dom
+├── 📂 Day43-45_Dom
 |   ├── 📄 domIntro.html
 |   ├── 📄 script1.js
 |   ├── 📄 selectors.js
 |   ├── 📄 selectors2.js
 │   └── 📄 structure.html
 │
+├── 📂 Day46_DOM-Traversing_and_Creating_Elements
+│   ├── 📄 dom-traversing.html
+│   └── 📄 nodeList.html
+|
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE
 └── 📝 README.md

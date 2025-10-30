@@ -68,6 +68,7 @@ My 100 days of code journey in JavaScript.
 | 45 | DOM Selectors and Element Manipulation, Nodelist and HTML collection| ✅ Done |
 | 46 | DOM Traversing & Creating Elements Dynamically | ✅ Done |
 | 47 | DOM Append, Edit & Remove Elements | ✅ Done |
+| 48 | DOM color changer practice project | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -181,6 +182,12 @@ My 100 days of code journey in JavaScript.
 |
 ├── 📂 Day47_DOM_part3
 │   └── 📄 edit-remove.html
+|
+├── 📂 js-practice-projects
+│   └──📂 1.colorChanger
+│       ├── 📄 colorChanger.js
+│       ├── 📄 index.html
+│       └── 📄 style.js
 |
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

@@ -69,6 +69,7 @@ My 100 days of code journey in JavaScript.
 | 46 | DOM Traversing & Creating Elements Dynamically | ✅ Done |
 | 47 | DOM Append, Edit & Remove Elements | ✅ Done |
 | 48 | DOM color changer practice project | ✅ Done |
+| 49 | DOM BMI Calculator practice project | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -184,10 +185,17 @@ My 100 days of code journey in JavaScript.
 │   └── 📄 edit-remove.html
 |
 ├── 📂 js-practice-projects
-│   └──📂 1.colorChanger
-│       ├── 📄 colorChanger.js
-│       ├── 📄 index.html
-│       └── 📄 style.js
+│   ├── 📂 1.colorChanger
+│   |   ├── 📄 colorChanger.js
+│   |   ├── 📄 index.html
+│   |   └── 📄 style.js
+|   |
+│   ├── 📂 1.colorChanger
+│   |   ├── 📄 bmiCal.js
+│   |   ├── 📄 index.html
+│   |   └── 📄 style.js
+|   |  
+|   ├──
 |
 ├── ⚙️ .gitattributes
 ├── 📜 LICENSE

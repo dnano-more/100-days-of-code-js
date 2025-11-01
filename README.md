@@ -70,6 +70,7 @@ My 100 days of code journey in JavaScript.
 | 47 | DOM Append, Edit & Remove Elements | ✅ Done |
 | 48 | DOM color changer practice project | ✅ Done |
 | 49 | DOM BMI Calculator practice project | ✅ Done |
+| 49 | DOM DigitalClock practice project | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -190,10 +191,14 @@ My 100 days of code journey in JavaScript.
 │   |   ├── 📄 index.html
 │   |   └── 📄 style.js
 |   |
-│   ├── 📂 1.colorChanger
+│   ├── 📂 2-BMICalculator
 │   |   ├── 📄 bmiCal.js
 │   |   ├── 📄 index.html
 │   |   └── 📄 style.js
+|   |
+│   ├── 📂 3-DigitalClock
+│   |   ├── 📄 bmiCal.js
+│   |   └── 📄 index.html    
 |   |  
 |   ├──
 |

@@ -70,7 +70,8 @@ My 100 days of code journey in JavaScript.
 | 47 | DOM Append, Edit & Remove Elements | ✅ Done |
 | 48 | DOM color changer practice project | ✅ Done |
 | 49 | DOM BMI Calculator practice project | ✅ Done |
-| 49 | DOM DigitalClock practice project | ✅ Done |
+| 50 | DOM DigitalClock practice project | ✅ Done |
+| 51 | DOM Number guessing game practice project | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -199,6 +200,11 @@ My 100 days of code journey in JavaScript.
 │   ├── 📂 3-DigitalClock
 │   |   ├── 📄 bmiCal.js
 │   |   └── 📄 index.html    
+|   |
+│   ├── 📂 4-GuessTheNumber
+│   |   ├── 📄 GuessTheNumber.js
+│   |   ├── 📄 index.html
+│   |   └── 📄 style.css    
 |   |  
 |   ├──
 |

@@ -72,6 +72,7 @@ My 100 days of code journey in JavaScript.
 | 49 | DOM BMI Calculator practice project | ✅ Done |
 | 50 | DOM DigitalClock practice project | ✅ Done |
 | 51 | DOM Number guessing game practice project | ✅ Done |
+| 51 | DOM Event KeyCodes & Random background color changer every second practice project | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -206,6 +207,13 @@ My 100 days of code journey in JavaScript.
 │   |   ├── 📄 index.html
 │   |   └── 📄 style.css    
 |   |  
+│   ├── 📂 5-keyboard
+│   |   ├── 📄 index.html    
+│   |   └── 📄 key-codes.js
+|   |  
+│   ├── 📂 6-unlimitedColors
+│   |   ├── 📄 bgcolor-chnager.jsl    
+│   |   └── 📄 index.html
 |   ├──
 |
 ├── ⚙️ .gitattributes

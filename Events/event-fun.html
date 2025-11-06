@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Fun - click and get color</title>
+    <style>
+        body {
+            background-color: #222;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            font-family: sans-serif;
+        }
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="box">Click Me!</div>
+
+    <script>
+        const box = document.getElementById('box');
+
+        const colors = ["red", "blue", "green", "orange", "pink", "yellow", "teal", "cyan", "lime"];
+        
+        box.addEventListener('click', function () {
+            const randomColor = Math.floor(Math.random() * colors.length);
+            const randomColorValue = colors[randomColor];
+            box.style.backgroundColor = randomColorValue;
+            box.textContent = `Color: ${randomColorValue}`;
+        });
+    </script>
+
+</body>
+</html>

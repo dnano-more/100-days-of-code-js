@@ -74,6 +74,7 @@ My 100 days of code journey in JavaScript.
 | 51 | DOM Number guessing game practice project | ✅ Done |
 | 52 | DOM Event KeyCodes & Random background color changer every second practice project | ✅ Done |
 | 53 | Basic events | ✅ Done |
+| 54 | built color box | ✅ Done |
 
 ## Repo Folder Structure
 
@@ -168,7 +169,8 @@ My 100 days of code journey in JavaScript.
 │   └── 📄 03_reduce.js
 |
 ├── 📂 Events
-│   ├── 📄 01_event-basic.js
+│   ├── 📄 basic.html
+│   ├── 📄 event-fun.html
 │   └── 📄 one.html
 |
 ├── 📂 js-lab

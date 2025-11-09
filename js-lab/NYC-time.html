@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New York Time Checker</title>
+  <style>
+    body {
+      background: #0d1117;
+      color: #f0f6fc;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #58a6ff;
+    }
+
+    #time {
+      font-size: 3em;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    #date {
+      font-size: 1.2em;
+      color: #a1a1a1;
+      margin-top: 10px;
+    }
+
+    .card {
+      background: #161b22;
+      padding: 30px 50px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(88, 166, 255, 0.3);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>🗽 New York Time</h1>
+    <div id="time">--:--:--</div>
+    <div id="date">Loading...</div>
+  </div>
+
+  <script>
+    function updateNYTime() {
+      const now = new Date();
+      const options = {
+        timeZone: "America/New_York",
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: true
+      };
+      const dateOptions = {
+        timeZone: "America/New_York",
+        weekday: "long",
+        year: "numeric",
+        month: "long",
+        day: "numeric"
+      };
+
+      document.getElementById("time").textContent = now.toLocaleTimeString("en-US", options);
+      document.getElementById("date").textContent = now.toLocaleDateString("en-US", dateOptions);
+    }
+
+    updateNYTime();
+    setInterval(updateNYTime, 1000);
+  </script>
+</body>
+</html>
